@@ -13,5 +13,19 @@
 - Operatoren
 - Proxykonten
 
-- [x] Backup
+## Backup und Restore
+-  Backuptypen
+- Wiederherstellungsmodelle
+- Restore auf Sekunde
+- Protokollfragmentsicherung
+- Backupplan 
+
+## Security
+- Logins
+- Usermapping
+- User
+- DB Rollen Server Rollen
+- Schema
+- - Sonderfälle: Besitzverkettung
+
 - [ ] Security 

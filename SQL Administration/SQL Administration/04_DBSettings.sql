@@ -17,6 +17,8 @@ insert into t1
 select 'XY'
 GO 30000 --57 Sekunden  38 17
 
+select * into t2 from t1
+
 --Bericht auf DB: Datenträgerverwendung
 
 --es läßt sich jederzeit die datei vergrößern und acuh evtl verkleinern

@@ -111,3 +111,35 @@ create table ma.kst (makst int)
 
 
 
+--Logins reparieren
+
+--zum Download sp_help_revlogin
+
+
+sp_change_users_login 'Report'-- verwaiste User
+
+--Fehl ogin anlegen
+sp_change_users_login 'Auto_fix', 'JamesBond', NULL, 'ppedv2019!'
+
+--SID reparieren, bei best Login
+
+sp_change_users_login 'Update_One', 'JamesBond', 'JamesBond'
+
+
+
+
+--dbatools.io  Powershell
+
+
+---ContainedDB
+http://blog.fumus.de/sql-server/contained-databasedie-eigenstndige-datenbank
+
+USE [ContainedDB]
+GO
+CREATE USER [Max] WITH PASSWORD=N'ppedv2019!'
+GO
+
+
+sp_help_revlogin
+
+

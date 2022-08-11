@@ -103,6 +103,18 @@
           <AssociatedConnUserName />
           <FullPath>22_DBDesign.sql</FullPath>
         </FileNode>
+        <FileNode Name="23_Salamitaktik.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>23_Salamitaktik.sql</FullPath>
+        </FileNode>
+        <FileNode Name="24_Kompression.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>24_Kompression.sql</FullPath>
+        </FileNode>
         <FileNode Name="SQL Server 2019 Diagnostic Information Queries.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>

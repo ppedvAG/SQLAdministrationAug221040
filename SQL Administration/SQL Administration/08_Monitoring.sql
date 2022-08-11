@@ -23,7 +23,7 @@ select * from sys.dm_os_wait_stats
 
 --DMVs Data Management Views
 
-select * from sysprocesses
+select * from sysprocesses --alle Prozesse der User haben ein SPID > 50
 
 ---historische Betrachtung
 
@@ -36,9 +36,9 @@ select * from sys.dm_os_wait_stats
 
 --Wenn wir alle zB 10min die Wartenzeiten speichern, 
 
-LCK_M_S	242	5894499	1855310	33    um 10 Uhr
-LCK_M_S	242	5894499	1855310	33   um 10:10 
-LCK_M_S	242	8745766	1855310	33  um 10:20
+LCK_M_S	   242	5894499	1855310	33    um 10 Uhr
+LCK_M_S	  242	5894499	1855310	33   um 10:10 
+LCK_M_S	   242	8745766	1855310	33  um 10:20
 
 --Neben der Datensammlung kann man auch Abfragen direkt messen
 -- set statistics io, time on 

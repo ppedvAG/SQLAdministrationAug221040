@@ -201,3 +201,26 @@ alter partition function fzahl()  merge range(100)
 
 
 
+
+--Feld BestDatum datetime
+
+---------2019  2020  2021
+	create partition function fZahl(datetime)--muss sortierbar
+	as
+	range left for values('31.12.2021 23:59:59.997')
+
+	-------inkl 2021]------
+	-----a bis m  --- n   bis r  --- s bis z
+	create partition function fZahl(datetime)--muss sortierbar
+	as
+	range left for values('N',r)
+
+	create partition scheme schZahl
+	as
+	partition fzahl to([PRIMARY],[PRIMARY],[PRIMARY])
+
+	
+	create partition scheme schZahl
+	as
+	partition fzahl  all  to([PRIMARY])
+

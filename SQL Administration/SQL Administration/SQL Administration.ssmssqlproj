@@ -115,23 +115,23 @@
           <AssociatedConnUserName />
           <FullPath>24_Kompression.sql</FullPath>
         </FileNode>
+        <FileNode Name="30_Indizes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>30_Indizes.sql</FullPath>
+        </FileNode>
         <FileNode Name="SQL Server 2019 Diagnostic Information Queries.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>SQL Server 2019 Diagnostic Information Queries.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery1.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
+        <FileNode Name="Überflüssige Indizes.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
-          <FullPath>SQLQuery1.sql</FullPath>
-        </FileNode>
-        <FileNode Name="SQLQuery2.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>SQLQuery2.sql</FullPath>
+          <FullPath>Überflüssige Indizes.sql</FullPath>
         </FileNode>
         <FileNode Name="Z_DB_Objetkte.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>

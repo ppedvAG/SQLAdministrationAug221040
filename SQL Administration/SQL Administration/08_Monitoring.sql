@@ -126,8 +126,6 @@ Tools zum Aufzeichen , falls das Problem vorbei ist.. SQL Text und Messwerte
 
 --Profiler: Tool um Abfragen aufzuzeichen
 
-Hallo
-
 
 
 
